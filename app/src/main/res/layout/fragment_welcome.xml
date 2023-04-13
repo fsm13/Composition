@@ -45,9 +45,7 @@
             android:layout_marginEnd="16dp"
             android:text="    Правила игры: перед Вами будет три фигуры, две снизу и одна сверху.
 В двух из них буду числа. Необходимо, чтобы сумма чисел из двух нижних фигур была равна числу
-из верхней фигуры, для этого нужно вставить недостающее число.\n     Например: в верхней фигуре число 7, в одной из нижних фигур
-знак вопроса, а в другой нижней фигуре число 4. Значит на месте вопросительного знака должно быть число 3.
-Потому что 3+4 = 7"
+из верхней фигуры, для этого нужно вставить недостающее число в фигуру с вопросительным знаком.\n"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -58,8 +56,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:gravity="bottom"
             android:text="ПОНЯТНО"
+            android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
